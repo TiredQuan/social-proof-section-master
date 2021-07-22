@@ -1,0 +1,332 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-size: 1.875rem;
+  color: #502050;
+  font-weight: 700;
+  line-height: 1;
+}
+
+@media screen and (min-width: 50rem) {
+  span {
+    font-size: 2.8125rem;
+    width: 23.125rem;
+    height: 9.375rem;
+  }
+}
+
+#bold-statement {
+  margin-bottom: 3rem;
+  color: #937b92;
+}
+
+@media screen and (min-width: 50rem) {
+  #bold-statement {
+    height: 4.25rem;
+    width: 26.5625rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+
+p {
+  font-weight: 400;
+}
+
+.place {
+  color: #502050;
+  font-weight: 700;
+  font-size: 0.84376rem;
+  margin: 0;
+}
+
+.comment {
+  font-size: 0.78125rem;
+  font-weight: 500;
+  color: rgba(247, 242, 247, 0.9);
+  line-height: 1.8;
+}
+
+@media screen and (min-width: 50rem) {
+  .comment {
+    font-size: 0.72115rem;
+  }
+}
+
+.name {
+  padding-bottom: 5px;
+  font-weight: 700;
+  color: rgba(247, 242, 247, 0.9);
+}
+
+@media screen and (min-width: 50rem) {
+  .name {
+    font-size: 0.78125rem;
+  }
+}
+
+.verifed {
+  color: #ee68a4;
+  color: rgba(238, 104, 164, 0.7);
+  font-weight: 400;
+}
+
+@media screen and (min-width: 50rem) {
+  .verifed {
+    font-size: 0.78125rem;
+  }
+}
+
+.container {
+  margin: 5.1875rem 1.5rem 6.25rem 1.5rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .container {
+    margin: 128.9952px 166.0032px;
+    min-width: 1080px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#hero {
+  text-align: center;
+}
+
+@media screen and (min-width: 50rem) {
+  #hero {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 1110px;
+    height: 226px;
+    margin-bottom: 4.875rem;
+  }
+}
+
+#reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 50rem) {
+  #reviews {
+    width: 540px;
+    height: 220.0032px;
+    margin-left: 10vw;
+  }
+}
+
+#reviews .review {
+  min-width: 20.5rem;
+  height: 4.6875rem;
+  background-color: #f7f2f7;
+  margin-bottom: 1.125rem;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media screen and (min-width: 50rem) {
+  #reviews .review {
+    width: 450px;
+    height: 56.0016px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #reviews .review:nth-last-child(1) {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #reviews .review:nth-last-child(2) {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  #reviews .review:nth-last-child(3) {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+.star {
+  margin: 0 0.3125rem 0 0;
+}
+
+.card {
+  max-width: 20.5rem;
+  min-width: 20.5rem;
+  max-height: 15.625rem;
+  background-color: #502050;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 50rem) {
+  .card {
+    margin: 0;
+    width: 350px;
+    height: 234px;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .card:nth-last-child(1) {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .card:nth-last-child(2) {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media screen and (min-width: 50rem) {
+  .card:nth-last-child(3) {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
+#cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 50rem) {
+  #cards {
+    width: 1110px;
+    height: 226px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+.card-content {
+  padding: 2.5rem 1.75rem 2.375rem 2rem;
+}
+
+@media screen and (min-width: 50rem) {
+  .card-content {
+    padding: 2.5rem 1.75rem 0 2rem;
+  }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 2.625rem;
+  height: 2.625rem;
+}
+
+.profile {
+  height: 2.625rem;
+  width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 1.75rem;
+}
+
+.profile p {
+  margin: 0 0 0 1.25rem;
+}
+/*# sourceMappingURL=main.css.map */

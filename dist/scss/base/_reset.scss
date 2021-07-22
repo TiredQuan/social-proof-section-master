@@ -1,0 +1,11 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: $font-size;
+    background-color: $white;
+    margin: 0;
+    padding: 0;
+    
+}
